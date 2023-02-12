@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		372F94CB290A700700B6F5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F94CA290A700700B6F5CC /* AppDelegate.swift */; };
 		372F94CD290A700700B6F5CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F94CC290A700700B6F5CC /* SceneDelegate.swift */; };
-		372F94CF290A700700B6F5CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F94CE290A700700B6F5CC /* ViewController.swift */; };
 		372F94D2290A700700B6F5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372F94D0290A700700B6F5CC /* Main.storyboard */; };
 		372F94D5290A700700B6F5CC /* TableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 372F94D3290A700700B6F5CC /* TableView.xcdatamodeld */; };
 		372F94D7290A700800B6F5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372F94D6290A700800B6F5CC /* Assets.xcassets */; };
 		372F94DA290A700800B6F5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372F94D8290A700800B6F5CC /* LaunchScreen.storyboard */; };
+		372F94E2290A70AB00B6F5CC /* JayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F94E1290A70AB00B6F5CC /* JayTableViewController.swift */; };
+		372F94E4290A70BA00B6F5CC /* WuBaiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F94E3290A70BA00B6F5CC /* WuBaiTableViewController.swift */; };
+		372F94EA290A70FD00B6F5CC /* Concert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F94E9290A70FD00B6F5CC /* Concert.swift */; };
+		376FF66529431556002E4E6C /* JayMVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF66429431556002E4E6C /* JayMVViewController.swift */; };
+		376FF66729471240002E4E6C /* WuBaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF66629471240002E4E6C /* WuBaiViewController.swift */; };
+		3785A13F294728040077C5AF /* BaiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785A13E294728040077C5AF /* BaiTableViewCell.swift */; };
+		3793005B290BADCB00CEBB3A /* UITableVIewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793005A290BADCB00CEBB3A /* UITableVIewCell+Extension.swift */; };
+		37D52671290BA88B003EF52D /* JayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D52670290BA88B003EF52D /* JayTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		372F94C7290A700700B6F5CC /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		372F94CA290A700700B6F5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		372F94CC290A700700B6F5CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		372F94CE290A700700B6F5CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		372F94D1290A700700B6F5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		372F94D4290A700700B6F5CC /* TableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableView.xcdatamodel; sourceTree = "<group>"; };
 		372F94D6290A700800B6F5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		372F94D9290A700800B6F5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372F94DB290A700800B6F5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372F94E1290A70AB00B6F5CC /* JayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayTableViewController.swift; sourceTree = "<group>"; };
+		372F94E3290A70BA00B6F5CC /* WuBaiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WuBaiTableViewController.swift; sourceTree = "<group>"; };
+		372F94E9290A70FD00B6F5CC /* Concert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concert.swift; sourceTree = "<group>"; };
+		376FF66429431556002E4E6C /* JayMVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayMVViewController.swift; sourceTree = "<group>"; };
+		376FF66629471240002E4E6C /* WuBaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WuBaiViewController.swift; sourceTree = "<group>"; };
+		3785A13E294728040077C5AF /* BaiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiTableViewCell.swift; sourceTree = "<group>"; };
+		3793005A290BADCB00CEBB3A /* UITableVIewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableVIewCell+Extension.swift"; sourceTree = "<group>"; };
+		37D52670290BA88B003EF52D /* JayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,47 @@
 		372F94C9290A700700B6F5CC /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				372F94CA290A700700B6F5CC /* AppDelegate.swift */,
 				372F94CC290A700700B6F5CC /* SceneDelegate.swift */,
-				372F94CE290A700700B6F5CC /* ViewController.swift */,
+				372F94CA290A700700B6F5CC /* AppDelegate.swift */,
+				376FF65F294314A5002E4E6C /* Model */,
+				376FF660294314B6002E4E6C /* View */,
+				376FF661294314D7002E4E6C /* View Controller */,
 				372F94D0290A700700B6F5CC /* Main.storyboard */,
+				3793005A290BADCB00CEBB3A /* UITableVIewCell+Extension.swift */,
 				372F94D6290A700800B6F5CC /* Assets.xcassets */,
 				372F94D8290A700800B6F5CC /* LaunchScreen.storyboard */,
 				372F94DB290A700800B6F5CC /* Info.plist */,
 				372F94D3290A700700B6F5CC /* TableView.xcdatamodeld */,
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		376FF65F294314A5002E4E6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				372F94E9290A70FD00B6F5CC /* Concert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		376FF660294314B6002E4E6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37D52670290BA88B003EF52D /* JayTableViewCell.swift */,
+				3785A13E294728040077C5AF /* BaiTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		376FF661294314D7002E4E6C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				372F94E1290A70AB00B6F5CC /* JayTableViewController.swift */,
+				376FF66429431556002E4E6C /* JayMVViewController.swift */,
+				372F94E3290A70BA00B6F5CC /* WuBaiTableViewController.swift */,
+				376FF66629471240002E4E6C /* WuBaiViewController.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +186,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				372F94CF290A700700B6F5CC /* ViewController.swift in Sources */,
+				37D52671290BA88B003EF52D /* JayTableViewCell.swift in Sources */,
 				372F94D5290A700700B6F5CC /* TableView.xcdatamodeld in Sources */,
+				372F94E4290A70BA00B6F5CC /* WuBaiTableViewController.swift in Sources */,
 				372F94CB290A700700B6F5CC /* AppDelegate.swift in Sources */,
+				372F94E2290A70AB00B6F5CC /* JayTableViewController.swift in Sources */,
+				3793005B290BADCB00CEBB3A /* UITableVIewCell+Extension.swift in Sources */,
+				3785A13F294728040077C5AF /* BaiTableViewCell.swift in Sources */,
+				376FF66729471240002E4E6C /* WuBaiViewController.swift in Sources */,
+				376FF66529431556002E4E6C /* JayMVViewController.swift in Sources */,
+				372F94EA290A70FD00B6F5CC /* Concert.swift in Sources */,
 				372F94CD290A700700B6F5CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
